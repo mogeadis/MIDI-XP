@@ -23,7 +23,7 @@
 **MIDI-XP** serves as a compact interface for connecting an expression pedal to a computer and sending MIDI Control Change (CC) messages over low-latency USB communication. The device is Class Compliant, thus it is instantly recognized by compatible operating systems and music software, without the need of additional drivers.
 
 ### Repository
-The code in this repository is organized into two directories, namely  [*src*](src) and [*include*](include), which contain the source (`.cpp`) and header (`.h`) files of the project, respectively. Moreover, the [*img*](img) directory contains all images displayed in the present documentation.
+The code in this repository is organized into two directories, namely [*src*](src) and [*include*](include), which contain the source (`.cpp`) and header (`.h`) files of the project, respectively. Moreover, the [*img*](img) directory contains all images displayed in the present documentation.
 
 ### Technical Details
 This project was developed using *Visual Studio Code* on `Windows 10`, with the *PlatformIO* extension employed to upload the code to the *ATmega32U4* microcontroller embedded in an *Arduino*-compatible *Pro Micro* board. Moreover, the circuit includes a single 6-pin TRS input jack for the expression pedal, along with a 150Ω resistor to prevent shorting the power rails during hot-plugging.
